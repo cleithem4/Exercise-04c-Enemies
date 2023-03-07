@@ -7,6 +7,7 @@ func _ready():
 	yield(enemy, "ready")
 
 func start():
+	enemy.set_animation("Move")
 	pass
 
 func physics_process(_delta):
